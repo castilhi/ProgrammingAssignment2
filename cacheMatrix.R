@@ -30,7 +30,7 @@ cacheSolve <- function(x, ...) {
   inv
 }
 
-## >  test for x = rbind(c(1, -1/4), c(-1/4, 1))
+## >  test for x = rbind(c(1, -1/5), c(-1/5, 1))
 
 x = rbind(c(1, -1/5), c(-1/5, 1))
 m = makeCacheMatrix(x)
